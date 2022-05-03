@@ -1,5 +1,5 @@
 //creo il "database" in cui sono contenuti i dati
-const users = ["antonio","luca@hotmail.it","andrea@hotmail.it"];
+const users = ["antonio","luca","andrea"];
 //faccio immetere l'user name da inserire
 const  Insert = (prompt("Inserisci Nome Utente"));
 for(let i = 0; i<users.length;i++){
