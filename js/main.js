@@ -8,7 +8,7 @@ if(users[i] === Insert){
     Check = Access + 1;
 }
 }
-if(Check != 1){
+if(Check === 1){
     document.getElementById("visual").innerHTML = `Accesso Effettuato`;
 }
 else{
