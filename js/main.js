@@ -4,9 +4,9 @@ const users = ["antonio","luca@hotmail.it","andrea@hotmail.it"];
 const  Insert = (prompt("Inserisci Nome Utente"));
 for(let i = 0; i<users.length;i++){
 if(users[i] === Insert){
-    console.log("Accesso Effettuato")
+    document.getElementById("visual").innerHTML = `Accesso Effettuato`;
 }
 else{
-    console.log("Username Non Registrato")
+    document.getElementById("visual").innerHTML = `Accesso Negato`;
 }
 }
